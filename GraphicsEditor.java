@@ -1,15 +1,18 @@
 public class GraphicsEditor {
     public static void main(String[] args) {
-        Circle circle = new Circle();
-        Quad quad = new Quad();
-        Triangle triangle = new Triangle();
-        Rectangle rectangle = new Rectangle();
-        Trapezoid trapezoid = new Trapezoid();
+        Shape circle = new Circle();
+        Shape quad = new Quad();
+        Shape triangle = new Triangle();
+        Shape rectangle = new Rectangle();
+        Shape trapezoid = new Trapezoid();
+        printShapeName(circle);
+        printShapeName(quad);
+        printShapeName(triangle);
+        printShapeName(rectangle);
+        printShapeName(trapezoid);
+    }
 
-        circle.print();
-        quad.print();
-        triangle.print();
-        rectangle.print();
-        trapezoid.print();
+    public static void printShapeName(Shape shape) {
+        shape.getShapeName();
     }
 }
