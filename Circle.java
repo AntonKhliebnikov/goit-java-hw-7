@@ -1,11 +1,7 @@
-public class Circle extends Shape implements ShapeActions{
-    @Override
-    public String getName() {
-        return "Circle";
-    }
+public class Circle extends Shape implements ShapeActions {
 
     @Override
-    public void print() {
-        System.out.println("This figure is " + getName());
+    public void getShapeName() {
+        System.out.println("Circle");
     }
 }
