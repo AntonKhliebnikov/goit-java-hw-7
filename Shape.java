@@ -1,3 +1,3 @@
 public abstract class Shape {
-    public abstract void getShapeName();
+    public abstract String getShapeName();
 }
