@@ -13,6 +13,6 @@ public class GraphicsEditor {
     }
 
     public static void printShapeName(Shape shape) {
-        shape.getShapeName();
+        System.out.println(shape.getShapeName());
     }
 }
