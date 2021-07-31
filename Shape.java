@@ -1,3 +1,3 @@
-public abstract class Shape {
+public abstract class Shape implements Perimeter{
     public abstract String getShapeName();
 }
